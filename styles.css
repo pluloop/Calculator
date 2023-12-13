@@ -6,6 +6,11 @@
     --red: #bf4254;
 }
 
+@font-face{
+    font-family: bit8;
+    src:url(bit8.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;                                                                                                                                 
@@ -45,6 +50,8 @@ button{
     width: 5rem;
     height: 5rem;
     background-color: var(--white);
+    font-family: bit8;
+    font-size: 2rem;
 }
 
 .calculate{
@@ -52,4 +59,5 @@ button{
     width: 20rem;   
     margin: 0 auto;
     background-color: var(--red);
+
 }
