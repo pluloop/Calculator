@@ -1,5 +1,5 @@
 :root{
-    --light-blue-gray: #A3AABE;
+    --kemora-gray: #3e494d;
     --light-purple: #9d7c99;
     --dark-purple: #534252;
     --white: #e8e9ed;
@@ -29,7 +29,7 @@ body,
 }
 
 body{
-    background-color: var(--light-blue-gray);
+    background-color: var(--kemora-gray);
     height: 100vh;
 }
 
@@ -39,11 +39,20 @@ body{
     background-color: var(--light-purple);
 }
 
-.result{
+.display-panel{
     width: 25rem;
     height: 5rem;
     background-color: var(--dark-purple);
     margin: 2rem auto;
+    font-family: bit8;
+    font-size: 3rem;
+    color: var(--white);
+}
+
+.display-text{
+    position: relative;
+    left: 2.75rem;
+    top: 1.4rem;
 }
 
 button{
@@ -54,10 +63,9 @@ button{
     font-size: 2rem;
 }
 
-.calculate{
+.clear{
     display: block;
     width: 20rem;   
     margin: 0 auto;
     background-color: var(--red);
-
 }
